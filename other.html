@@ -8,5 +8,24 @@
 <body>
   <h1>その他</h1>
   <a href="index.html">← トップに戻る</a>
+
+  <header>
+  <h1>大獅子</h1>
+  <button id="menuBtn">☰</button>
+</header>
+
+<nav id="sideMenu">
+  <a href="index.html">トップ</a>
+  <a href="taishishi.html">大獅子</a>
+  <a href="nakashishi.html">中獅子</a>
+  <a href="meshishi.html">女獅子</a>
+  <a href="other.html">その他</a>
+</nav>
+  
+<script>
+document.getElementById("menuBtn").onclick = () => {
+  document.getElementById("sideMenu").classList.toggle("open");
+};
+</script>
 </body>
 </html>
