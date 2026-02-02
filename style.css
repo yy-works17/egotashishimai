@@ -47,3 +47,6 @@ main {
 #sideMenu.open {
   right: 0;
 }
+body {
+  background: red;
+}
