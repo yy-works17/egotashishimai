@@ -213,6 +213,6 @@ audio {
 }
 main {
   max-width: 900px;
-  margin: 120px auto 0;  /* ← 上だけ120pxあける */
+  margin: 160px auto 0;  /* ← 上だけ120pxあける */
   padding: 20px;
 }
