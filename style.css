@@ -226,3 +226,9 @@ header h1 {
 #sideMenu a {
   color: white;
 }
+
+.page-title {
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+}
